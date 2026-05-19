@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Han Yöresel Lezzetler | Eskişehir</title>
+    <meta name="description" content="Han Yöresel Lezzetler'de, Eskişehir’in kalbinde meşhur çibörek ve balaban köftesi gibi geleneksel lezzetleri tadın.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sleek Sidebar / Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#anasayfa" class="logo">
+                <img src="https://i.ibb.co/gM3WQc4Y/Ekran-g-r-nt-s-2026-03-20-033228.png" alt="Han Yöresel Logo" class="nav-logo-img">
+                <div class="logo-text-wrapper">
+                    <span class="logo-text-main">HAN</span>
+                    <span class="logo-text-sub">YÖRESEL LEZZETLER</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#anasayfa" class="nav-link">Keşfet</a></li>
+                    <li><a href="#hakkimizda" class="nav-link">Hikayemiz</a></li>
+                    <li><a href="#menu" class="nav-link">Koleksiyon</a></li>
+                    <li><a href="#galeri" class="nav-link">Görsel Şölen</a></li>
+                    <li><a href="#iletisim" class="nav-link">Rezervasyon</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-social">
+                <a href="https://www.instagram.com/hanyoresellezzetler" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/905325997171" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Fullscreen Video Hero -->
+    <section id="anasayfa" class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="https://www.dropbox.com/scl/fi/eunnfjf0xsd24mh9d782o/get.mp4?rlkey=gjgpwpu8m7uq3l2x9win9gpes&st=lgs8tkxa&raw=1" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1 class="title">ESKİŞEHİR'İN<br><span class="highlight">MODERN</span> KLASİĞİ</h1>
+            <p class="desc">Geleneksel lezzetlerin premium sunumla buluştuğu nokta.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-solid">Menüyü İncele</a>
+                <a href="#iletisim" class="btn btn-outline-light">İletişime Geç</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Aşağı Kaydır</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Split About Section -->
+    <section id="hakkimizda" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2 class="section-title">Asırlık Tarifler,<br>Modern Dokunuş.</h2>
+                    <p>Han Yöresel Lezzetler olarak, mutfak mirasımızı geleceğe taşıyoruz. Sadece doyurmayı değil, her lokmada bir hikaye anlatmayı hedefliyoruz.</p>
+                    <p>Usta ellerden çıkan incecik çiböreklerimiz ve taptaze el açması mantılarımız, en kaliteli malzemelerle özenle hazırlanır. Şehrin kalbinde, size sadece bir yemek değil, unutulmaz bir gastronomi deneyimi sunuyoruz.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>%100</h3>
+                            <p>Doğal Malzeme</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Günlük</h3>
+                            <p>Taze Üretim</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal" style="transition-delay: 200ms;">
+                    <!-- Using one of the gallery images for the about section to give it a rich look -->
+                    <img src="https://i.ibb.co/SHYV51W/Ekran-g-r-nt-s-2026-03-20-033534.png" alt="Çi Börek Sunumu">
+                    <div class="image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Menu Section -->
+    <section id="menu" class="menu section-padding">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <h2 class="section-title">İmza Lezzetler</h2>
+                <p class="section-subtitle">Özenle seçilmiş, ustalıkla hazırlanmış koleksiyonumuz.</p>
+            </div>
+
+            <div class="menu-layout">
+                <!-- Yöresel -->
+                <div class="menu-block reveal">
+                    <h3 class="menu-category-title">01 / Yöresel Başyapıtlar</h3>
+                    <ul class="premium-menu-list">
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Geleneksel Çibörek</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">300 ₺</span>
+                            </div>
+                            <span class="m-desc">Porsiyonda 5 adet, özenle kızartılmış</span>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Peynirli Çibörek</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">300 ₺</span>
+                            </div>
+                            <span class="m-desc">Porsiyonda 5 adet, özel peynir harcıyla</span>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Balaban Köfte</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">420 ₺</span>
+                            </div>
+                            <span class="m-desc">İmza yemeğimiz, tereyağlı pide üzerinde</span>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Izgara Köfte Tava</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">400 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">El Açması Mantı</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">380 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Günün Çorbası</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">120 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Serpme Kahvaltı Tabağı</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">300 ₺</span>
+                            </div>
+                            <span class="m-desc">Zengin içerik ve 1 fincan çay eşliğinde</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- İçecekler & Tatlı -->
+                <div class="menu-block reveal" style="transition-delay: 200ms;">
+                    <h3 class="menu-category-title">02 / Tatlı & İçecekler</h3>
+                    <ul class="premium-menu-list">
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Kızarmış Dondurma</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">150 ₺</span>
+                            </div>
+                            <span class="m-desc">Sıcak ve soğuğun eşsiz buluşması</span>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Türk Kahvesi</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">100 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Filtre Kahve</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">110 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Fincan Çay</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">50 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Su</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">20 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Ayran</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">30 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Susurluk Ayran</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">50 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Gazoz</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">50 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Kola / Fanta / Sprite</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">80 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Limonata</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">75 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Meyve Suyu</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">60 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Şıra (Üzüm Suyu)</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">70 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Şalgam</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">60 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Soğuk Çaylar</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">80 ₺</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-row">
+                                <span class="m-name">Soda</span>
+                                <span class="m-dots"></span>
+                                <span class="m-price">40 ₺</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Marquee Section -->
+    <section class="reviews-marquee section-padding">
+        <div class="marquee-wrapper reveal">
+            <div class="marquee-content">
+                <!-- Review 1 -->
+                <div class="r-card">
+                    <div class="r-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Çiğ börek gerçekten çok lezzetliydi. Hamuru incecik ve çıtır, iç harcı ise tam kıvamındaydı."</p>
+                    <span class="r-author">— Nermin Ö.</span>
+                </div>
+                <!-- Review 2 -->
+                <div class="r-card">
+                    <div class="r-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Çibörek oldukça lezzetliydi. Özenli ve misafirperver bir işletme. Azat beyin ilgisinden memnun kaldık."</p>
+                    <span class="r-author">— Ece S.</span>
+                </div>
+                <!-- Review 3 -->
+                <div class="r-card">
+                    <div class="r-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"İstanbul'dan geldim, dış görünüşü iyi olduğu için uğradım hiç yanıltmadı her şey güzeldi."</p>
+                    <span class="r-author">— Nisanur Ü.</span>
+                </div>
+                <!-- Review 4 -->
+                <div class="r-card">
+                    <div class="r-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Azat abi bizle çok ilgiliydi memnun kaldık. Çi böreği ve balaban köftesi muhteşemdi."</p>
+                    <span class="r-author">— Eda</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4 reveal">
+            <a href="https://www.google.com/search?sxsrf=ANbL-n7_-VKrXxlmRf_LpxAGaI5zmgH8xQ:1779209115695&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOTSC6l8pDUf73dejlV9LLFGDFdOGcyNLcSIQ7FNPdYHYnmdS0rOi-MgVWR7GpNqWUEDVjfQbYQN5v2NnghypXNiPz7jJm7z-JwXGTu7m6DC58CbQxzDbhiVRehpF8QjTv89jHRwIhNv8EgaVJdDWXpC0lOSM&q=Han+y%C3%B6resel+lezzetler/%C3%A7i+b%C3%B6rek,balaban+k%C3%B6fte,manti+Yorumlar" target="_blank" class="btn btn-outline-accent">
+                <i class="fab fa-google"></i> Google'da Yorum Yap
+            </a>
+        </div>
+    </section>
+
+    <!-- Masonry Gallery -->
+    <section id="galeri" class="gallery section-padding">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <h2 class="section-title">Görsel Şölen</h2>
+                <p class="section-subtitle">Tabaklarımızdan yansıyan sanat. Büyütmek için fotoğraflara tıklayın.</p>
+            </div>
+
+            <!-- Full sizes handled by CSS Masonry -->
+            <div class="masonry-grid reveal">
+                <div class="masonry-item" onclick="openLightbox(this)">
+                    <img src="https://i.ibb.co/KcB4xkGR/Ekran-g-r-nt-s-2026-03-20-033506.png" alt="Han Mantı">
+                    <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="masonry-item" onclick="openLightbox(this)">
+                    <img src="https://i.ibb.co/SHYV51W/Ekran-g-r-nt-s-2026-03-20-033534.png" alt="Meşhur Çibörek">
+                    <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="masonry-item" onclick="openLightbox(this)">
+                    <img src="https://i.ibb.co/BHNBjVzX/Ekran-g-r-nt-s-2026-03-20-033615.png" alt="Balaban Köfte">
+                    <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+                <div class="masonry-item" onclick="openLightbox(this)">
+                    <img src="https://i.ibb.co/Q3YjXqDy/Ekran-g-r-nt-s-2026-03-20-033702ww.png" alt="Köfte Tava">
+                    <div class="masonry-overlay"><i class="fas fa-expand"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Contact & Map Section -->
+    <section id="iletisim" class="contact">
+        <div class="contact-grid">
+            <div class="contact-form-area section-padding reveal">
+                <div class="c-content">
+                    <h2 class="section-title">Bizi Ziyaret Edin</h2>
+                    <p class="c-desc">Eskişehir'in tarihi dokusunda, unutulmaz bir lezzet deneyimi için kapılarımız size her zaman açık.</p>
+                    
+                    <div class="c-info-list">
+                        <div class="c-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Konum</h5>
+                                <p>Paşa Mahallesi, Odunpazarı Meydanı, Eskişehir</p>
+                            </div>
+                        </div>
+                        <div class="c-info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5>Rezervasyon & İletişim</h5>
+                                <p>0532 599 71 71</p>
+                            </div>
+                        </div>
+                        <div class="c-info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>Çalışma Saatleri</h5>
+                                <p>Her Gün: 09:30 - 21:30</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="c-actions">
+                        <a href="https://yandex.com.tr/maps/org/han_yoresel_lezzetler/227953207221/?ll=30.524089%2C39.763918&z=16" target="_blank" class="btn btn-solid"><i class="fas fa-location-arrow"></i> Yol Tarifi Al</a>
+                        <a href="https://wa.me/905325997171" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-map reveal">
+                <iframe src="https://yandex.com.tr/map-widget/v1/?ll=30.524089,39.763918&z=16&oid=227953207221&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sleek Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo-wrapper">
+                    <img src="https://i.ibb.co/gM3WQc4Y/Ekran-g-r-nt-s-2026-03-20-033228.png" alt="Han Yöresel Logo" class="footer-logo-img">
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/hanyoresellezzetler" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/905325997171" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Han Yöresel Lezzetler. Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
